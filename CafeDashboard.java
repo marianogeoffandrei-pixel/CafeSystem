@@ -20,6 +20,7 @@ public class CafeDashboard extends JFrame {
 
         setTitle("Cafe System Dashboard");
         setSize(800, 500);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         setLayout(new BorderLayout());
