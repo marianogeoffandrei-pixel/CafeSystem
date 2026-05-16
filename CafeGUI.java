@@ -12,6 +12,7 @@ public class CafeGUI extends JFrame {
     public CafeGUI() {
         setTitle("Internet Cafe System");
         setSize(500, 350);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         cardLayout = new CardLayout();
